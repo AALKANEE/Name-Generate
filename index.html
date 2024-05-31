@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>نام ساز</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body dir="rtl">
+    <div class="container">
+        <div id="content" class="content">
+            <h1>نام ساز</h1>
+            <form action="#" id="generate-names">
+                <div class="six columns">
+                    
+                    <div id="result"></div>
+                </div>
+                    <div class="row">
+                    <div class="six columns">
+                        <label for="country">فیلتر بر اساس کشور:</label>
+                        <select class="u-full-width" id="country">
+                            <option value=''>-- انتخاب --</option>
+                            <option value="persian_Iran">ایران</option>
+                            <option value="russian-russia">روسیه</option>
+                            <option value="chinese-china">چینی</option>
+                            <option value="french-france">فرانسه</option>
+                            <option value="italian-italy">ایتالیا</option>
+                            <option value="arabic-jordan">عربی</option>
+                            <option value="portuguese-portugal">پرتقال</option>
+                            <option value="english-united-states">آمریکا</option>
+                            <option value="japanese-japan">ژاپن</option>
+                        </select>
+                        <label for="genre">جنسیت:</label>
+                        <select class="u-full-width" id="genre">
+                            <option value=''>-- انتخاب --</option>
+                            <option value="male">مرد</option>
+                            <option value="female">زن</option>
+                        </select>
+                        <input class="button-primary u-full-width" type="submit" value="جدید بساز">
+                    </div>
+
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
